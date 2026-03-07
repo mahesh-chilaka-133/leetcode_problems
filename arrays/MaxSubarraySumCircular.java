@@ -25,23 +25,4 @@ class MaxSubarraySumCircular {
             }
             return res;
         }
- 
-    public int maxSubarraySumCircular(int[] nums) {
-        
-       
-
-        int maxNormal = normalMax(nums);
-
-        if (maxNormal < 0){
-            return maxNormal;
-        }
-        int arrSum = 0;
-        for (int i = 0;i < nums.length;i++){
-            arrSum += nums[i];
-            nums[i] = -nums[i];
-        }
-        int maxCircular = arrSum + normalMax(nums);
-        return Math.max(maxCircular,maxNormal);
     }
-
-}
