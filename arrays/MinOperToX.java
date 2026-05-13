@@ -1,4 +1,5 @@
 package arrays;
+import java.util.HashMap;
 class MinOperToX {
     public int minOperations(int[] nums, int x) {
         
