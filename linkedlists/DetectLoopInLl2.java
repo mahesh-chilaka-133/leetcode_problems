@@ -1,4 +1,4 @@
-package linkedlists;
+
 
 public class DetectLoopInLl2 {
     public ListNode detectCycle(ListNode head) {
