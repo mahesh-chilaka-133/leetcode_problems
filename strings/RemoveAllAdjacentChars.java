@@ -1,4 +1,5 @@
-class Solution {
+package strings;
+class RemoveAllAdjacentChars {
     public String removeDuplicates(String s) {
 
         StringBuilder sb = new StringBuilder();
