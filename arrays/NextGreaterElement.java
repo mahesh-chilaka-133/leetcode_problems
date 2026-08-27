@@ -1,4 +1,5 @@
-class Solution {
+package arrays;
+class NextGreaterElements {
     public int[] nextGreaterElements(int[] nums) {
 
         Deque<Integer> stack = new ArrayDeque<>();
