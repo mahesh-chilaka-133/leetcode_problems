@@ -7,7 +7,7 @@ import java.util.Queue;
 
 import javax.swing.tree.TreeNode;
 
-public class levelOrderTraversal {
+public class LevelOrderTraversal {
     /**
  * Definition for a binary tree node.
  * public class TreeNode {
